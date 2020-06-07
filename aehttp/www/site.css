@@ -1,0 +1,37 @@
+/* Use the ayu mirage color scheme: https://github.com/ayu-theme/ayu-colors */
+body {
+	font-family: 'Slabo 27px', serif;
+	background-color: #1f2430;
+	color: #cbccc6;
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+}
+
+.terminal-container {
+	border: solid 2px #707a8c;
+	border-radius: 2px 4px;
+	background-color: #000;
+}
+
+.terminal-container input[type="text"] {
+	background-color: #000;
+	border: none;
+	display: block;
+	width: 100%;
+	padding: 0;
+	color: #cbccc6;
+	font-family: 'Oxygen Mono', monospace;
+	font-size: 10pt;
+	border-top: solid 2px #707a8c;
+}
+
+input:focus, textarea:focus, select:focus{
+	outline: none;
+}
+
+.terminal {
+	padding: 6px;
+}
