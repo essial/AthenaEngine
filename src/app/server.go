@@ -3,8 +3,8 @@ package main
 import (
 	"sync"
 
-	"github.com/essial/AthenaEngine/aehttp"
-	"github.com/essial/AthenaEngine/aenetwork"
+	"aehttp"
+	"aenetwork"
 )
 
 // The AthenaEngine server.
