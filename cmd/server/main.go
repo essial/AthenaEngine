@@ -19,11 +19,13 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 import (
 	"log"
+
+	"github.com/essial/AthenaEngine"
 )
 
 func main() {
 	log.Print("Athena Engine v0.01, Licensed under GPLv3. More information at https://github.com/essial/AthenaEngine")
-	server := CreateServer()
+	server := AthenaEngine.CreateServer()
 	defer server.Close()
 	server.Run()
 }
