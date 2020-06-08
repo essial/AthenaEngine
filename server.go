@@ -1,10 +1,10 @@
-package pkg
+package AthenaEngine
 
 import (
 	"sync"
 
-	"github.com/essial/AthenaEngine/aehttp"
-	"github.com/essial/AthenaEngine/src/github.com/essial/AthenaEngine/aenetwork"
+	"github.com/essial/AthenaEngine/pkg/aehttp"
+	"github.com/essial/AthenaEngine/pkg/aenetwork"
 )
 
 // The AthenaEngine server.
