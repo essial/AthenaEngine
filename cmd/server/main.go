@@ -17,7 +17,9 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-import "log"
+import (
+	"log"
+)
 
 func main() {
 	log.Print("Athena Engine v0.01, Licensed under GPLv3. More information at https://github.com/essial/AthenaEngine")
